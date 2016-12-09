@@ -25,6 +25,7 @@ namespace CustomWeb.Controllers
         public virtual IActionResult Index()
         {
             return View(page);
+            
         }
     }
 }
