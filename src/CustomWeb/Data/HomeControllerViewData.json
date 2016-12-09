@@ -1,0 +1,37 @@
+﻿{
+  "Title": "TestTitleHome",
+
+  "Header": {
+    "Title": "Herzlich Willkommen bei Optik Wagner",
+    "SubTitle": "Seit 15 Jahren begrüßen wir unsere Kunden im Herzen der Märchenstadt Marburg ..."
+  },
+  
+  
+  
+  "Body": {
+    "Content": "TestBodyHome"
+  },
+
+  //"Carousel": {
+  //  "PictureList": [ "/images/about/a.JPG", "/images/about/b.JPG", "/images/about/c.JPG", "/images/about/d.JPG", "/images/about/e.JPG", "/images/about/c.JPG" ]
+  //},
+
+  "Carousel": {
+    "CarouselItemList": [
+      {
+        "PictureName": "/images/products/d.jpg",
+        "PictureDescription": "Dies ist ein schönes Bild"
+      },
+      {
+        "PictureName": "/images/products/e.jpg",
+        "PictureDescription": "Dies ist ein noch schöneres Bild"
+      },
+      {
+        "PictureName": "/images/products/c.jpg",
+        "PictureDescription": "Dies ist das schönste Bild"
+      }
+    ]
+  }
+
+
+}

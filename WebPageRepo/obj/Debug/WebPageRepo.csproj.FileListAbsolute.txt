@@ -1,0 +1,9 @@
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageRepo.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageRepo.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageCommon.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageCommon.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Debug\WebPageRepo.csprojResolveAssemblyReference.cache
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Debug\WebPageRepo.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Debug\WebPageRepo.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\Newtonsoft.Json.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\Newtonsoft.Json.xml

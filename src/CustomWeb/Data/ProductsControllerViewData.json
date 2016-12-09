@@ -1,0 +1,32 @@
+﻿{
+  "Title": "TestTitleProducts",
+
+  "Header": {
+    "Title": "Unsere Produkte",
+    "SubTitle": ""
+  },
+
+
+  "Body": {
+    "Content": "TestBodyProducts"
+  },
+
+  "Carousel": {
+    "CarouselItemList": [
+      {
+        "PictureName": "/images/products/a.jpg",
+        "PictureDescription": "Dies ist ein schönes Bild"
+      },
+      {
+        "PictureName": "/images/products/b.jpg",
+        "PictureDescription": "Dies ist ein noch schöneres Bild"
+      },
+      {
+        "PictureName": "/images/products/c.jpg",
+        "PictureDescription": "Dies ist das schönste Bild"
+      }
+    ]
+  }
+}
+
+
