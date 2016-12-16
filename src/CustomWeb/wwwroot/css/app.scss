@@ -1,0 +1,57 @@
+﻿///*!
+// * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
+// * Copyright 2011-2016 The Bootstrap Authors
+// * Copyright 2011-2016 Twitter, Inc.
+// * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+// */
+//
+//// Core variables and mixins
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/custom";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/variables";
+@import "variables";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/mixins";
+//
+//// Reset and dependencies
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/normalize";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/print";
+//
+//// Core CSS
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/reboot";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/type";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/images";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/code";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/grid";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/tables";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/forms";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/buttons";
+//
+//// Components
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/animation";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/dropdown";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/button-group";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/input-group";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/custom-forms";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/nav";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/navbar";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/card";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/breadcrumb";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/pagination";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/tags";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/jumbotron";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/alert";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/progress";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/media";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/list-group";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/responsive-embed";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/close";
+//
+//// Components w/ JavaScript
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/modal";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/tooltip";
+//@import "../lib/bootstrap-4.0.0-alpha.5/scss/popover";
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/carousel";
+//
+//// Utility classes
+@import "../lib/bootstrap-4.0.0-alpha.5/scss/utilities";
+
+@import "base";

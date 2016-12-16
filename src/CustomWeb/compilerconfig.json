@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "Views/test.css",
+    "inputFile": "wwwroot/css/test.sass"
+  },
+  {
+    "outputFile": "Views/test.css",
+    "inputFile": "Views/test.sass"
+  },
+  {
+    "outputFile": "wwwroot/css/test.css",
+    "inputFile": "wwwroot/css/test.scss"
+  },
+  {
+    "outputFile": "wwwroot/lib/bootstrap-4.0.0-alpha.5/scss/bootstrap.css",
+    "inputFile": "wwwroot/lib/bootstrap-4.0.0-alpha.5/scss/bootstrap.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/app.css",
+    "inputFile": "wwwroot/css/app.scss"
+  }
+]
