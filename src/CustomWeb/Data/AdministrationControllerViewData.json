@@ -1,0 +1,16 @@
+﻿{
+  "Title": "CMS - Administration",
+
+  "Header": {
+    "Title": "Administration",
+    "SubTitle": ""
+  },
+
+
+  "Body": {
+    "Content": "Hier erfolgt die Administration (Body)"
+  }
+  
+}
+
+

@@ -1,12 +1,10 @@
 ﻿namespace WebPageCommon
 {
-    public class Body : HTMLSection
+    public class Body
     {
-        //public NavigationBar NavigationBar { get; set; }
+        public Main Main { get; set; }
+        public string Content { get; set; }
 
-        public Body()
-        {
-           // NavigationBar = new NavigationBar();
-        }
+       
     }
 }

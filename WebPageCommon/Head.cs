@@ -1,6 +1,6 @@
 ﻿namespace WebPageCommon
 {
-    public class Head : HTMLSection
+    public class Head
     {
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace WebPageCommon
 {
-    public class Footer : HTMLSection
+    public class Footer
     {
     }
 }

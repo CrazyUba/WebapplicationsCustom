@@ -2,7 +2,7 @@
 
 namespace WebPageCommon
 {
-    public class NavigationBar : HTMLSection
+    public class NavigationBar
     {
         public List<Link> Links { get; set; }
 

@@ -10,7 +10,7 @@ namespace CustomWeb.Controllers
     {
 
         private CustomPage page;
-        private string controllerName => this.GetType().Name;
+        private string controllerName => this.GetType().Name + "View";
         private string customerName;
 
 

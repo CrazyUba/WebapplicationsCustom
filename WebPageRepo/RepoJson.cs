@@ -44,7 +44,7 @@ namespace WebPageRepo
         {
             try
             {
-                using (StreamReader file = File.OpenText(@".\Data\" + pageName + "ViewData.json"))
+                using (StreamReader file = File.OpenText(@".\Data\" + pageName + "Data.json"))
                 {
                     string json = file.ReadToEnd();
                     page = JsonConvert.DeserializeObject<CustomPage>(json);
