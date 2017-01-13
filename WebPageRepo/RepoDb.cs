@@ -4,23 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebPageCommon;
+using WebPageEF;
 
 namespace WebPageRepo
 {
-    class RepoDb : IRepository
+    public class RepoDb : IRepository
     {
         string pageName;
+        WebPageContext webPageContext = new WebPageContext();
 
         public RepoDb(string pageName)
         {
             this.pageName = pageName;
         }
 
+
+
         public CustomPage GetPage()
         {
             CustomPage page = new CustomPage();
 
-            page.Body.Content = "Get data from db via sqlcommand (pagename, Body, Content)";
+            //page.Body.Content = "Get data from db via sqlcommand (pagename, Body, Content)";
+
+            Body body = webPageContext.DbSetBody.Single();
+
+            page.Body = body;
 
             return page;
         }

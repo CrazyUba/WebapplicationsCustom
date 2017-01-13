@@ -191,6 +191,7 @@
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.ReaderWriter.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll"
 -r:"C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Debug\WebPageCommon.dll"
+-r:"C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\bin\Debug\WebPageEF.dll"
 -r:"C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageRepo.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll"

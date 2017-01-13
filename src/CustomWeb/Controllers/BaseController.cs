@@ -17,7 +17,8 @@ namespace CustomWeb.Controllers
         public BaseController(IOptions<MyEnvOptions> myEnvOptions)
         {
             customerName = myEnvOptions.Value.CustomerName; // for future use
-            RepoJson repo = new RepoJson(controllerName);
+            //IRepository repo = new RepoJson(controllerName);
+            IRepository repo = new RepoDb(controllerName);
             page = repo.GetPage();
         }
 

@@ -2,9 +2,12 @@
 {
     public class Body
     {
-        public Main Main { get; set; }
+        public int Id { get; set; }
+
+        //public Main Main { get; set; }
+
         public string Content { get; set; }
 
-       
+
     }
 }

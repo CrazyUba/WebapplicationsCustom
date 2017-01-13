@@ -2676,10 +2676,17 @@
       "WebPageCommon/1.0.0": {
         "type": "project"
       },
-      "WebPageRepo/1.0.0": {
+      "WebPageEF/1.0.0": {
         "type": "project",
         "dependencies": {
           "WebPageCommon": "1.0.0"
+        }
+      },
+      "WebPageRepo/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "WebPageCommon": "1.0.0",
+          "WebPageEF": "1.0.0"
         }
       }
     }
@@ -7340,6 +7347,10 @@
       "type": "project",
       "msbuildProject": "../../WebPageCommon/WebPageCommon.csproj"
     },
+    "WebPageEF/1.0.0": {
+      "type": "project",
+      "msbuildProject": "../../WebPageEF/WebPageEF.csproj"
+    },
     "WebPageRepo/1.0.0": {
       "type": "project",
       "msbuildProject": "../../WebPageRepo/WebPageRepo.csproj"
@@ -7374,6 +7385,7 @@
     ],
     ".NETFramework,Version=v4.6.1": [
       "WebPageCommon",
+      "WebPageEF",
       "WebPageRepo"
     ]
   },

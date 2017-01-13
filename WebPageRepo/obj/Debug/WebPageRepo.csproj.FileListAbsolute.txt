@@ -7,3 +7,10 @@ C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Debug\WebPag
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Debug\WebPageRepo.pdb
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\Newtonsoft.Json.dll
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\Newtonsoft.Json.xml
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageRepo.dll.config
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\EntityFramework.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageEF.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\WebPageEF.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\EntityFramework.xml
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Debug\EntityFramework.SqlServer.xml
