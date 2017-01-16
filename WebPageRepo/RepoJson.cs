@@ -25,7 +25,8 @@ namespace WebPageRepo
 
         public string GetTitle()
         {
-            return page.Title.ToString() ?? "";
+            //return page.Title.ToString() ?? "";
+            return "";
         }
 
         public CustomPage GetPage()

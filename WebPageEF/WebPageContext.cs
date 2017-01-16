@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +12,54 @@ namespace WebPageEF
 {
     public class WebPageContext : DbContext
     {
-        public DbSet<Body> DbSetBody { get; set; }
+        //public DbSet<Body> DbSetBody { get; set; }
+        public DbSet<CustomPage> DbSetCustomPages { get; set; }
 
         //string x = ConfigurationManager.ConnectionStrings["WebPageContext"].ConnectionString
 
-        public WebPageContext():base("Server=SMW7W004;Database=WebCMS;User Id=ASPDemo;Password=ASPDemo;")
+        public WebPageContext()
         {
-            Body body = new Body();
-            body.Content = "44";
-            DbSetBody.Add(body);
-            this.SaveChanges();
+
+            string configFilename = AppDomain.CurrentDomain.SetupInformation.ConfigurationFile;
+
+            if (!File.Exists(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile))
+            {
+                throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile  + "' does not exist");
+            }
+
+            string strConnectionString = ConfigurationManager.ConnectionStrings["WebPageContext"].ConnectionString;
+
+            if (string.IsNullOrEmpty(strConnectionString))
+            {
+                throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile + "' exist. But 'connectionString' is empty.");
+            }
+
+            //Body body = new Body();
+            //body.Content = "44";
+
+            //try
+            //{
+            //    DbSetBody.Add(body);
+            //    this.SaveChanges();
+            //}
+            //catch (Exception exc)
+            //{
+            //    string innerExceptionMessage = "";
+            //    string innerInnerExceptionMessage = "";
+
+            //    if (exc.InnerException != null)
+            //    {
+            //        innerExceptionMessage = exc.InnerException.Message;
+            //    }
+
+            //    if (exc.InnerException != null && exc.InnerException.InnerException != null)
+            //    {
+            //        innerInnerExceptionMessage = exc.InnerException.InnerException.Message;
+            //    }
+
+            //    throw new Exception(exc.Message + " Inner-Exception: '" + innerExceptionMessage + "' Inner-Inner-Exception: '" + innerInnerExceptionMessage + "'");
+            //}
+
         }
     
     }

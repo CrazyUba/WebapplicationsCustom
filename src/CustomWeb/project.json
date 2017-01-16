@@ -2,6 +2,7 @@
   "userSecretsId": "aspnet-CustomWeb-c8b99af8-4fea-4d15-93e9-437345109759",
 
   "dependencies": {
+    "EntityFramework": "6.1.3",
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",

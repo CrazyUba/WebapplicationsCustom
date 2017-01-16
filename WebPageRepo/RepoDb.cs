@@ -22,15 +22,16 @@ namespace WebPageRepo
 
         public CustomPage GetPage()
         {
-            CustomPage page = new CustomPage();
+            //CustomPage page = new CustomPage();
 
             //page.Body.Content = "Get data from db via sqlcommand (pagename, Body, Content)";
 
-            Body body = webPageContext.DbSetBody.Single();
+            return webPageContext.DbSetCustomPages.Find(1);
 
-            page.Body = body;
 
-            return page;
+            //page.Body = body;
+
+            //return page;
         }
     }
 }

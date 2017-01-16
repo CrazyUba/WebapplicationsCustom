@@ -48,6 +48,7 @@
     <Compile Include="Footer.cs" />
     <Compile Include="Head.cs" />
     <Compile Include="Header.cs" />
+    <Compile Include="HtmlElement.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Link.cs" />
     <Compile Include="Main.cs" />
