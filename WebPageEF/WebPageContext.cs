@@ -12,8 +12,8 @@ namespace WebPageEF
 {
     public class WebPageContext : DbContext
     {
-        //public DbSet<Body> DbSetBody { get; set; }
-        public DbSet<CustomPage> DbSetCustomPages { get; set; }
+        public DbSet<Body> DbSetBody { get; set; }
+        //public DbSet<CustomPage> DbSetCustomPages { get; set; }
 
         //string x = ConfigurationManager.ConnectionStrings["WebPageContext"].ConnectionString
 
@@ -24,7 +24,7 @@ namespace WebPageEF
 
             if (!File.Exists(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile))
             {
-                throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile  + "' does not exist");
+                throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile + "' does not exist");
             }
 
             string strConnectionString = ConfigurationManager.ConnectionStrings["WebPageContext"].ConnectionString;
@@ -34,12 +34,15 @@ namespace WebPageEF
                 throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile + "' exist. But 'connectionString' is empty.");
             }
 
-            //Body body = new Body();
-            //body.Content = "44";
+            //CustomPage customPage = new CustomPage();
+            //Body body = new Body { Content = "Hey, EF-Test" };
+            //List<Body> bodies = new List<Body>();
+            //customPage.Bodies = bodies;
+            //customPage.Bodies.Add(body);
 
             //try
             //{
-            //    DbSetBody.Add(body);
+            //    DbSetCustomPages.Add(customPage);
             //    this.SaveChanges();
             //}
             //catch (Exception exc)
@@ -60,6 +63,37 @@ namespace WebPageEF
             //    throw new Exception(exc.Message + " Inner-Exception: '" + innerExceptionMessage + "' Inner-Inner-Exception: '" + innerInnerExceptionMessage + "'");
             //}
 
+
+           
+            
+            
+/*            
+            Body body = new Body();
+            body.Content = "44";
+
+            try
+            {
+                DbSetBody.Add(body);
+                this.SaveChanges();
+            }
+            catch (Exception exc)
+            {
+                string innerExceptionMessage = "";
+                string innerInnerExceptionMessage = "";
+
+                if (exc.InnerException != null)
+                {
+                    innerExceptionMessage = exc.InnerException.Message;
+                }
+
+                if (exc.InnerException != null && exc.InnerException.InnerException != null)
+                {
+                    innerInnerExceptionMessage = exc.InnerException.InnerException.Message;
+                }
+
+                throw new Exception(exc.Message + " Inner-Exception: '" + innerExceptionMessage + "' Inner-Inner-Exception: '" + innerInnerExceptionMessage + "'");
+            }
+            */
         }
     
     }
