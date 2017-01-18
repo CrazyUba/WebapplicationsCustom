@@ -1,7 +1,8 @@
 ﻿namespace WebPageCommon
 {
-    public class Main
+    public class Main : HtmlElement
     {
-        public Section Section { get; set; }
+        public int Id { get; set; }
+        //public Section Section { get; set; }
     }
 }

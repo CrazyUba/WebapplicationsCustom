@@ -1,6 +1,7 @@
 ﻿namespace WebPageCommon
 {
-    public class Footer
+    public class Footer : HtmlElement
     {
+        public int Id { get; set; }
     }
 }
