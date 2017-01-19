@@ -64,7 +64,8 @@ namespace WebPageRepo
 
         public string GetBody()
         {
-            return page.Body.Content ?? "";
+            //return page.Body.Content ?? "";
+            return "body";
         }
     }
 }

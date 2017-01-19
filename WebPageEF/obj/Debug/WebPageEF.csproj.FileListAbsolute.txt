@@ -12,3 +12,4 @@ C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageE
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.pdb
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.Initial.resources
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.csproj.GenerateResource.Cache
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.deleteBodyEtc.resources

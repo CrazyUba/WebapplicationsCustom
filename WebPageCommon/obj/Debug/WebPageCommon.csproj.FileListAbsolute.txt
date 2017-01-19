@@ -2,3 +2,4 @@ C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Debug\WebP
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Debug\WebPageCommon.pdb
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Debug\WebPageCommon.dll
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Debug\WebPageCommon.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Debug\WebPageCommon.csprojResolveAssemblyReference.cache

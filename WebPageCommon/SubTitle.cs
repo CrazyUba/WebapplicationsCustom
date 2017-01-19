@@ -1,6 +1,6 @@
 ﻿namespace WebPageCommon
 {
-    public class Title : HtmlElement
+    public class SubTitle : HtmlElement
     {
     }
 }
