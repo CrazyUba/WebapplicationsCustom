@@ -7,7 +7,7 @@ namespace WebPageCommon
 
         //string GetBody();
 
-        CustomPage GetPage();
+        WebPage GetPageBy(string webPageName);
 
     }
 }

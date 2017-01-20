@@ -8,7 +8,7 @@ namespace WebPageRepo
     public class RepoJson : IRepository
     {
 
-        CustomPage page;
+        WebPage page;
        // string customerName;
         string pageName;
 
@@ -29,7 +29,7 @@ namespace WebPageRepo
             return "";
         }
 
-        public CustomPage GetPage()
+        public WebPage GetPageBy(string customerName)
         {
             return page;
         }
@@ -48,7 +48,7 @@ namespace WebPageRepo
                 using (StreamReader file = File.OpenText(@".\Data\" + pageName + "Data.json"))
                 {
                     string json = file.ReadToEnd();
-                    page = JsonConvert.DeserializeObject<CustomPage>(json);
+                    page = JsonConvert.DeserializeObject<WebPage>(json);
                     //string a = page?.Body.Content;
                     //string b = page?.Title;
                     //string c = page.Carousel.PictureList[0] ?? "";

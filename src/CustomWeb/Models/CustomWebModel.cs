@@ -6,7 +6,7 @@ using WebPageCommon;
 
 namespace CustomWeb.Models
 {
-    public class CustomWebModel : CustomPage
+    public class CustomWebModel : WebPage
 
     {
     }

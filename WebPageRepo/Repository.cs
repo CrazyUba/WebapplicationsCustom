@@ -17,7 +17,7 @@ namespace WebPageRepo
             throw new NotImplementedException();
         }
 
-        public CustomPage GetPage()
+        public WebPage GetPageBy(string customerName)
         {
             throw new NotImplementedException();
         }

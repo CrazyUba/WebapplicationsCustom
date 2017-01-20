@@ -9,7 +9,7 @@ namespace CustomWeb.Controllers
     public class BaseController : Controller
     {
 
-        private CustomPage page;
+        private WebPage page;
         private string controllerName => this.GetType().Name + "View";
         private string customerName;
 
@@ -18,8 +18,8 @@ namespace CustomWeb.Controllers
         {
             customerName = myEnvOptions.Value.CustomerName; // for future use
             //IRepository repo = new RepoJson(controllerName);
-            IRepository repo = new RepoDb(controllerName);
-            page = repo.GetPage();
+            IRepository repo = new RepoDb(webSiteName: "test.de");
+            page = repo.GetPageBy(webPageName: controllerName);
         }
 
 

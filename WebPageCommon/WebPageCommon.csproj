@@ -46,8 +46,7 @@
     <Compile Include="Card.cs" />
     <Compile Include="Carousel.cs" />
     <Compile Include="CarouselItem.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomPage.cs" />
+    <Compile Include="WebPage.cs" />
     <Compile Include="Footer.cs" />
     <Compile Include="Header.cs" />
     <Compile Include="HtmlElement.cs" />
@@ -59,6 +58,7 @@
     <Compile Include="Section.cs" />
     <Compile Include="SubTitle.cs" />
     <Compile Include="Title.cs" />
+    <Compile Include="WebSite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,14 +5,14 @@ namespace WebPageEF.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WebPageEF.WebPageContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<WebPageEF.WebCmsContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(WebPageEF.WebPageContext context)
+        protected override void Seed(WebPageEF.WebCmsContext context)
         {
             //  This method will be called after migrating to the latest version.
 

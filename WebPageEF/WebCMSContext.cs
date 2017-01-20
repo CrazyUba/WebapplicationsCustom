@@ -10,15 +10,16 @@ using WebPageCommon;
 
 namespace WebPageEF
 {
-    public class WebPageContext : DbContext
+    public class WebCmsContext : DbContext
     {
-        public DbSet<CustomPage> DbSetCustomPages { get; set; }
-        public DbSet<Title> DbSetTitles { get; set; }
+        public DbSet<WebSite> DbSetWebSites { get; set; }
+        public DbSet<WebPage> DbSetWebPages { get; set; }
 
-        public WebPageContext()
+
+        public WebCmsContext()
         {
 
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<WebPageContext, WebPageEF.Migrations.Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<WebCmsContext, WebPageEF.Migrations.Configuration>());
             CheckForConfigFile();
 
             //Head head = new Head { Content = "This is the head" };
@@ -122,7 +123,7 @@ namespace WebPageEF
                 throw new Exception("Config-File '" + AppDomain.CurrentDomain.SetupInformation.ConfigurationFile + "' does not exist");
             }
 
-            string strConnectionString = ConfigurationManager.ConnectionStrings["WebPageContext"].ConnectionString;
+            string strConnectionString = ConfigurationManager.ConnectionStrings["WebCmsContext"].ConnectionString;
 
             if (string.IsNullOrEmpty(strConnectionString))
             {

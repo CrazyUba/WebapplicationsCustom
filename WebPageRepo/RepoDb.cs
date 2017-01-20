@@ -10,19 +10,33 @@ namespace WebPageRepo
 {
     public class RepoDb : IRepository
     {
-        string pageName;
-        WebPageContext webPageContext = new WebPageContext();
+        string _webSiteUrl;
+        WebCmsContext webCmsContext = new WebCmsContext();
 
-        public RepoDb(string pageName)
+        public RepoDb(string webSiteUrl)
         {
-            this.pageName = pageName;
+            this._webSiteUrl = webSiteUrl;
         }
 
 
 
-        public CustomPage GetPage()
+        public WebPage GetPageBy(string webPageName)
         {
-            CustomPage page = new CustomPage();
+
+            //WebSite webSite = webCmsContext.DbSetWebSites.Where(ws => ws.Url == this._webSiteUrl).First();
+
+            //WebPage page = webPageContext.DbSetCustomPages.Where(p => p.CustomerName == customerName).First();
+
+            //page.Title = (from t in webPageContext.DbSetTitles join p in webPageContext.DbSetCustomPages on t.Id equals p.TitleRefId where p.Id == page.Id select t).First();
+
+            //return page;
+
+
+
+            return new WebPage();
+
+
+
 
             //page.Body.Content = "Get data from db via sqlcommand (pagename, Body, Content)";
 
@@ -30,22 +44,19 @@ namespace WebPageRepo
 
 
             //page.Body = webPageContext.DbSetBody.Find(1);
-           
-            page = webPageContext.DbSetCustomPages.Find(2);
-            var titles = from t in webPageContext.DbSetTitles join p in webPageContext.DbSetCustomPages on t.Id equals p.TitleRefId where p.Id == page.Id select t;
+
+            // page = webPageContext.DbSetCustomPages.Find(2);
 
             //var title = (from t in webPageContext.DbSetTitles select t).First();  // OK
-            var title3 = webPageContext.DbSetTitles.First(t => t.Id == page.TitleRefId);  // OK
+            //var title3 = webPageContext.DbSetTitles.First(t => t.Id == page.TitleRefId);  // OK
 
-            var pageAndTitle = webPageContext.DbSetTitles.Join(
-                inner: webPageContext.DbSetCustomPages,
-                outerKeySelector: t => t.Id,
-                innerKeySelector: p => p.TitleRefId,
-                resultSelector: (t, p) => new { Custompage = p, Title = t }
-                ).First();
+            //var pageAndTitle = webPageContext.DbSetTitles.Join(       // OK
+            //    inner: webPageContext.DbSetCustomPages,
+            //    outerKeySelector: t => t.Id,
+            //    innerKeySelector: p => p.TitleRefId,
+            //    resultSelector: (t, p) => new { Custompage = p, Title = t }
+            //    ).First();
 
-            page.Title = titles.First();
-            return page;
         }
     }
 }
