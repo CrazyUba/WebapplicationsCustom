@@ -11,6 +11,7 @@ namespace CustomWeb.Controllers
 
         private WebPage page;
         private string controllerName => this.GetType().Name + "View";
+        
         private string customerName;
 
 
@@ -18,8 +19,9 @@ namespace CustomWeb.Controllers
         {
             customerName = myEnvOptions.Value.CustomerName; // for future use
             //IRepository repo = new RepoJson(controllerName);
-            IRepository repo = new RepoDb(webSiteName: "test.de");
-            page = repo.GetPageBy(webPageName: controllerName);
+            IRepository repo = new RepoDb(webSiteUrl: "test.de");
+            
+            page = repo.GetPageBy(webPageName: controllerName.Replace("ControllerView", ""));
         }
 
 

@@ -13,3 +13,11 @@ C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageE
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.Initial.resources
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.csproj.GenerateResource.Cache
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit1.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit3.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit5.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit6.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit7.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit8.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit9.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit91.resources
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageEF\obj\Debug\WebPageEF.Migrations.webSiteInit92.resources

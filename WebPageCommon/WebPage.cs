@@ -10,14 +10,16 @@ namespace WebPageCommon
         public int  Id { get; set; }
 
         public string Name { get; set; }
-        //public int TitleRefId { get; set; }
-
-        //[ForeignKey("TitleRefId")]
-        //public Title Title { get; set; }
 
         public string Title { get; set; }
 
         public string SubTitle { get; set; }
+
+
+        public int WebSiteId { get; set; }      // EF-Property to create the foreign key
+
+        [ForeignKey("WebSiteId")]
+        public WebSite WebSite { get; set; }    // EF-Property to create the foreign key
 
     }
 }

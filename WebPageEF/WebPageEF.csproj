@@ -58,6 +58,38 @@
     <Compile Include="Migrations\201701201609405_webSiteInit1.Designer.cs">
       <DependentUpon>201701201609405_webSiteInit1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701201612145_webSiteInit3.cs" />
+    <Compile Include="Migrations\201701201612145_webSiteInit3.Designer.cs">
+      <DependentUpon>201701201612145_webSiteInit3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231053450_webSiteInit5.cs" />
+    <Compile Include="Migrations\201701231053450_webSiteInit5.Designer.cs">
+      <DependentUpon>201701231053450_webSiteInit5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231054084_webSiteInit6.cs" />
+    <Compile Include="Migrations\201701231054084_webSiteInit6.Designer.cs">
+      <DependentUpon>201701231054084_webSiteInit6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231057339_webSiteInit7.cs" />
+    <Compile Include="Migrations\201701231057339_webSiteInit7.Designer.cs">
+      <DependentUpon>201701231057339_webSiteInit7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231057588_webSiteInit8.cs" />
+    <Compile Include="Migrations\201701231057588_webSiteInit8.Designer.cs">
+      <DependentUpon>201701231057588_webSiteInit8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231104576_webSiteInit9.cs" />
+    <Compile Include="Migrations\201701231104576_webSiteInit9.Designer.cs">
+      <DependentUpon>201701231104576_webSiteInit9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231105152_webSiteInit91.cs" />
+    <Compile Include="Migrations\201701231105152_webSiteInit91.Designer.cs">
+      <DependentUpon>201701231105152_webSiteInit91.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701231520438_webSiteInit92.cs" />
+    <Compile Include="Migrations\201701231520438_webSiteInit92.Designer.cs">
+      <DependentUpon>201701231520438_webSiteInit92.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WebCmsContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,7 +101,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +112,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701201609405_webSiteInit1.resx">
       <DependentUpon>201701201609405_webSiteInit1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701201612145_webSiteInit3.resx">
+      <DependentUpon>201701201612145_webSiteInit3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231053450_webSiteInit5.resx">
+      <DependentUpon>201701231053450_webSiteInit5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231054084_webSiteInit6.resx">
+      <DependentUpon>201701231054084_webSiteInit6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231057339_webSiteInit7.resx">
+      <DependentUpon>201701231057339_webSiteInit7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231057588_webSiteInit8.resx">
+      <DependentUpon>201701231057588_webSiteInit8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231104576_webSiteInit9.resx">
+      <DependentUpon>201701231104576_webSiteInit9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231105152_webSiteInit91.resx">
+      <DependentUpon>201701231105152_webSiteInit91.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701231520438_webSiteInit92.resx">
+      <DependentUpon>201701231520438_webSiteInit92.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

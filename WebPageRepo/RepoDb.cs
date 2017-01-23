@@ -23,17 +23,16 @@ namespace WebPageRepo
         public WebPage GetPageBy(string webPageName)
         {
 
-            //WebSite webSite = webCmsContext.DbSetWebSites.Where(ws => ws.Url == this._webSiteUrl).First();
+            WebSite webSite = webCmsContext.DbSetWebSites.Where(ws => ws.Url == this._webSiteUrl).First();
+            WebPage webPage = webCmsContext.DbSetWebPages.Where(p => p.WebSiteId == webSite.Id).First();
 
-            //WebPage page = webPageContext.DbSetCustomPages.Where(p => p.CustomerName == customerName).First();
+            return webPage;
 
+            
+            
             //page.Title = (from t in webPageContext.DbSetTitles join p in webPageContext.DbSetCustomPages on t.Id equals p.TitleRefId where p.Id == page.Id select t).First();
 
             //return page;
-
-
-
-            return new WebPage();
 
 
 
