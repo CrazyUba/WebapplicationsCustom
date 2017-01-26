@@ -15,7 +15,7 @@ namespace CustomWeb2.Controllers
     {
         private WebCmsContext db = new WebCmsContext();
 
-        // GET: WebPage
+        // GET: WebPage 
         public ActionResult Index()
         {
             var dbSetWebPages = db.DbSetWebPages.Include(w => w.WebSite);
