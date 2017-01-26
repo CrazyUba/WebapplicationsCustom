@@ -18,7 +18,6 @@
       "CustomWeb/1.0.0": {
         "dependencies": {
           "WebPageCommon": "1.0.0",
-          "WebPageEF": "1.0.0",
           "WebPageRepo": "1.0.0",
           "EntityFramework": "6.1.3",
           "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
@@ -1528,7 +1527,6 @@
       "CustomWeb/1.0.0": {
         "dependencies": {
           "WebPageCommon": "1.0.0",
-          "WebPageEF": "1.0.0",
           "WebPageRepo": "1.0.0",
           "EntityFramework": "6.1.3",
           "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",

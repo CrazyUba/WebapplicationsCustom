@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageRepo", "WebPageRepo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageEF", "WebPageEF\WebPageEF.csproj", "{69790400-B8BB-4C3D-AC86-464563AFCF0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomWeb2", "CustomWeb2\CustomWeb2.csproj", "{869E55F6-9197-4CE4-9286-1293A00740DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCVorlage", "MVCVorlage\MVCVorlage.csproj", "{5F2E5ECD-371A-42FD-B4B1-48AAEC60A257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,14 @@ Global
 		{69790400-B8BB-4C3D-AC86-464563AFCF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69790400-B8BB-4C3D-AC86-464563AFCF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69790400-B8BB-4C3D-AC86-464563AFCF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869E55F6-9197-4CE4-9286-1293A00740DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869E55F6-9197-4CE4-9286-1293A00740DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869E55F6-9197-4CE4-9286-1293A00740DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869E55F6-9197-4CE4-9286-1293A00740DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2E5ECD-371A-42FD-B4B1-48AAEC60A257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2E5ECD-371A-42FD-B4B1-48AAEC60A257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2E5ECD-371A-42FD-B4B1-48AAEC60A257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2E5ECD-371A-42FD-B4B1-48AAEC60A257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

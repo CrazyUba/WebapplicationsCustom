@@ -1,0 +1,22 @@
+﻿@model WebPageCommon.WebPage
+
+<!DOCTYPE html>
+<html>
+<head>
+    @Html.Partial("_Head")
+</head>
+<body>
+    @Html.Partial("_Navbar")
+    @Html.Partial("_Header")
+
+    @RenderSection("secondNavBar", false)
+    @RenderBody()
+    
+    @Html.Partial("_Footer")
+    @Html.Partial("_ScriptsFooter")
+</body>
+</html>
+
+
+
+
