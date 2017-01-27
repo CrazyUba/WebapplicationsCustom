@@ -10,8 +10,8 @@ namespace CustomWeb.Controllers
     public class BaseController : Controller
     {
 
-        private WebPage page;
-        private string controllerName => this.GetType().Name + "View";
+        protected WebPage page;
+        protected string controllerName => this.GetType().Name + "View";
         
         private string customerName;
 
