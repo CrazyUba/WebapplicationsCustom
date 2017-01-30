@@ -61,7 +61,7 @@ namespace CustomWeb2.Controllers
             ViewBag.WebSiteId = new SelectList(db.DbSetWebSites, "Id", "Url", webPage.WebSiteId);
             return View(webPage);
         }
-
+        [Authorize]
         // GET: WebPage/Edit/5
         public ActionResult Edit(int? id)
         {
