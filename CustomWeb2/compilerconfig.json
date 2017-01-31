@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Content/css/_myStyle_footer.css",
+    "inputFile": "Content/scss/_myStyle_footer.scss"
+  },
+  {
+    "outputFile": "Content/css/app.css",
+    "inputFile": "Content/scss/app.scss"
+  },
+  {
+    "outputFile": "Content/css/_myStyle.css",
+    "inputFile": "Content/scss/_myStyle.scss"
+  },
+  {
+    "outputFile": "Content/css/app.css",
+    "inputFile": "Content/scss/app.scss"
+  }
+]

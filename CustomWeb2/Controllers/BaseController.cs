@@ -13,7 +13,7 @@ namespace CustomWeb.Controllers
         protected WebPage page;
         protected string controllerName => this.GetType().Name + "View";
         
-        private string customerName;
+        //private string customerName;
 
 
         //public BaseController(IOptions<MyEnvOptions> myEnvOptions)

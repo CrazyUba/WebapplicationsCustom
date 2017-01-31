@@ -212,22 +212,27 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\_old\bootstrap.css" />
-    <Content Include="Content\_old\bootstrap.min.css" />
-    <Content Include="Content\css\app.css">
-      <DependentUpon>app.scss</DependentUpon>
-    </Content>
+    <Content Include="Content\Account\css\bootstrap.css" />
+    <Content Include="Content\Account\css\bootstrap.min.css" />
+    <Content Include="Content\Account\css\Site.css" />
+    <Content Include="Content\css\app.css" />
     <Content Include="Content\css\app.min.css">
       <DependentUpon>app.css</DependentUpon>
     </Content>
-    <Content Include="Content\css\site_old.css" />
-    <Content Include="Content\css\site_old.min.css">
+    <Content Include="Content\css\_myStyle_footer.css" />
+    <Content Include="Content\css\_myStyle_footer.min.css">
+      <DependentUpon>_myStyle_footer.css</DependentUpon>
+    </Content>
+    <Content Include="Content\_old\bootstrap.css" />
+    <Content Include="Content\_old\bootstrap.min.css" />
+    <Content Include="Content\scss\site_old.css" />
+    <Content Include="Content\scss\site_old.min.css">
       <DependentUpon>site_old.css</DependentUpon>
     </Content>
-    <Content Include="Content\css\test.css">
+    <Content Include="Content\scss\test.css">
       <DependentUpon>test.scss</DependentUpon>
     </Content>
-    <Content Include="Content\css\test.min.css">
+    <Content Include="Content\scss\test.min.css">
       <DependentUpon>test.css</DependentUpon>
     </Content>
     <Content Include="Content\favicon.ico" />
@@ -552,6 +557,11 @@
       <DependentUpon>jquery.js</DependentUpon>
     </Content>
     <Content Include="Content\lib_old\jquery\LICENSE.txt" />
+    <Content Include="Content\scss\_myStyle_footer.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Content\_references.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -970,10 +980,10 @@
     <Content Include="Content\lib_old\jquery-validation\.bower.json" />
     <Content Include="Content\lib_old\jquery-validation\LICENSE.md" />
     <Content Include="Content\lib_old\jquery-validation-unobtrusive\.bower.json" />
-    <Content Include="Content\css\_myStyle.scss" />
-    <Content Include="Content\css\_variables.scss" />
-    <Content Include="Content\css\app.scss" />
-    <Content Include="Content\css\test.scss" />
+    <Content Include="Content\scss\_myStyle.scss" />
+    <Content Include="Content\scss\_variables.scss" />
+    <Content Include="Content\scss\app.scss" />
+    <Content Include="Content\scss\test.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1033,6 +1043,7 @@
     <Content Include="Views\WebPage\Details.cshtml" />
     <Content Include="Views\WebPage\Edit.cshtml" />
     <Content Include="Views\WebPage\Index.cshtml" />
+    <Content Include="Views\Account\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
