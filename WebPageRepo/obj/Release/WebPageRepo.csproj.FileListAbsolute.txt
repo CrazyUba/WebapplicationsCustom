@@ -1,0 +1,16 @@
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageRepo.dll.config
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageRepo.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageRepo.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\EntityFramework.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\EntityFramework.SqlServer.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\Newtonsoft.Json.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageCommon.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageEF.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageCommon.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\WebPageEF.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\EntityFramework.xml
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\EntityFramework.SqlServer.xml
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\bin\Release\Newtonsoft.Json.xml
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Release\WebPageRepo.csprojResolveAssemblyReference.cache
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Release\WebPageRepo.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageRepo\obj\Release\WebPageRepo.pdb

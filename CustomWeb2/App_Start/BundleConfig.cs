@@ -9,10 +9,10 @@ namespace CustomWeb2
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/content/lib/jquery/jquery.js"));
+                        "~/content/lib/jquery/dist/jquery.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/content/lib/jquery-validation/jquery.validate*"));
+                        "~/content/lib/jquery-validation/dist/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
@@ -24,7 +24,9 @@ namespace CustomWeb2
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/css/app.css"));
+                      "~/Content/Account/css/bootstrap.css",
+                      "~/Content/Account/css/site.css"
+                      ));
         }
     }
 }

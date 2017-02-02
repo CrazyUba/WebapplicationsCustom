@@ -197,11 +197,13 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\WebPageController.cs" />
+    <Compile Include="Controllers\WebSiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -562,6 +564,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\scss\app_old.scss" />
     <None Include="Content\_references.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -984,6 +987,8 @@
     <Content Include="Content\scss\_variables.scss" />
     <Content Include="Content\scss\app.scss" />
     <Content Include="Content\scss\test.scss" />
+    <None Include="Properties\PublishProfiles\CustomWebFirstPublish.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomWebFirstPublish2.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1044,6 +1049,12 @@
     <Content Include="Views\WebPage\Edit.cshtml" />
     <Content Include="Views\WebPage\Index.cshtml" />
     <Content Include="Views\Account\_Layout.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\WebSite\Create.cshtml" />
+    <Content Include="Views\WebSite\Delete.cshtml" />
+    <Content Include="Views\WebSite\Details.cshtml" />
+    <Content Include="Views\WebSite\Edit.cshtml" />
+    <Content Include="Views\WebSite\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1069,6 +1080,9 @@
       <Project>{43c57cee-3627-49a6-bb9a-8c696d8eb1fc}</Project>
       <Name>WebPageRepo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

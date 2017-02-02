@@ -1,0 +1,5 @@
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Release\WebPageCommon.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Release\WebPageCommon.pdb
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.csprojResolveAssemblyReference.cache
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.dll
+C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.pdb

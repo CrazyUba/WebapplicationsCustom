@@ -13,7 +13,6 @@ namespace CustomWeb.Controllers
 
         }
 
-        [Authorize]
         override public ActionResult Index()
         {
             return View("Index" + base.controllerName, page);
