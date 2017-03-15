@@ -3,3 +3,8 @@ C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\bin\Release\We
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.csprojResolveAssemblyReference.cache
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.dll
 C:\Devel\VisalStudio\Projects\WebapplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.pdb
+C:\Data\VisualStudio\WebApplicationsCustom\WebPageCommon\bin\Release\WebPageCommon.dll
+C:\Data\VisualStudio\WebApplicationsCustom\WebPageCommon\bin\Release\WebPageCommon.pdb
+C:\Data\VisualStudio\WebApplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.csprojResolveAssemblyReference.cache
+C:\Data\VisualStudio\WebApplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.dll
+C:\Data\VisualStudio\WebApplicationsCustom\WebPageCommon\obj\Release\WebPageCommon.pdb
