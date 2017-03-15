@@ -2092,7 +2092,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2017 11:09:12</publishTime>
     </File>
     <File Include="Views/Products/IndexProductsControllerView.cshtml">
-      <publishTime>03/14/2017 11:09:12</publishTime>
+      <publishTime>03/15/2017 14:59:04</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/14/2017 11:09:12</publishTime>
@@ -2101,7 +2101,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2017 11:09:12</publishTime>
     </File>
     <File Include="Views/Shared/_Footer.cshtml">
-      <publishTime>03/14/2017 11:09:12</publishTime>
+      <publishTime>03/15/2017 15:58:31</publishTime>
     </File>
     <File Include="Views/Shared/_Head.cshtml">
       <publishTime>03/14/2017 11:09:12</publishTime>
@@ -2116,7 +2116,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2017 11:09:12</publishTime>
     </File>
     <File Include="Views/Shared/_Navbar.cshtml">
-      <publishTime>03/14/2017 11:09:12</publishTime>
+      <publishTime>03/15/2017 15:02:03</publishTime>
     </File>
     <File Include="Views/Shared/_ScriptsFooter.cshtml">
       <publishTime>03/14/2017 11:09:12</publishTime>
@@ -2161,7 +2161,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2017 11:09:12</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/15/2017 13:58:45</publishTime>
+      <publishTime>03/15/2017 14:57:21</publishTime>
     </File>
   </ItemGroup>
 </Project>
